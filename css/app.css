@@ -1,0 +1,173 @@
+@font-face {
+ font-family: 'Roboto';
+ font-style: normal;
+ font-weight: 100;
+ src: local('Roboto Thin'), local('Roboto-Thin'), url(https://themes.googleusercontent.com/static/fonts/roboto/v9/vzIUHo9z-oJ4WgkpPOtg13YhjbSpvc47ee6xR_80Hnw.woff) format('woff');
+}
+
+@font-face {
+ font-family: 'Roboto';
+ font-style: normal;
+ font-weight: 400;
+ src: local('Roboto Regular'), local('Roboto-Regular'), url(https://themes.googleusercontent.com/static/fonts/roboto/v9/CrYjSnGjrRCn0pd9VQsnFOvvDin1pK8aKteLpeZ5c0A.woff) format('woff');
+}
+
+html,body {
+ background: #f05a4f;
+ background-size: 105%;
+ font-family: "Roboto", "HelveticaNeue", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+/* font-weight: 600;*/
+ overflow: none;
+ color: #fff;
+-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.company-name {
+  line-height: 40px;
+  text-align: center;
+  font-size: 30pt;
+  font-family: "Roboto";
+}
+
+.login-button {
+  background-color: #bf443b;
+  border-radius: 20px;
+  line-height: 40px;
+  text-align: center;
+  font-family: "roboto";
+}
+
+.backface-Visible {
+    backface-visibility: visible;
+    -webkit-backface-visibility: visible; 
+    -moz-backface-visibility: visible; 
+    -ms-backface-visibility: visible;
+}
+
+.header-item {
+  padding-left: 75px;
+  font-size: 18pt;
+  text-align: left;
+  line-height: 50px;
+}
+
+.field-input {
+  padding-left: 10px;
+  border: 0px;
+  font-size: 11pt;
+  color: #000;
+  border-bottom: 1px solid #fff;
+  background-color: #f05a4f;
+}
+
+.day-surface {
+  background-color: #f05a4f;
+  border: 1px solid #000;
+  line-height: 15%;
+  padding-top: 15px;
+  padding-left: 5px;
+  text-align: center;
+}
+
+.day-surface-v2 {
+  background-color: #f05a4f;
+  border: 1px solid #000;
+  line-height: 20%;
+  padding-top: 40px;
+  padding-left: 5px;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 8pt;
+}
+
+.field-input:focus, input:focus{
+  outline: 0;
+  background-color: none;
+}
+
+
+.field-icon {
+  background-color: #f05a4f;
+  border: 0px;
+  border-bottom: 1px solid #fff;
+  line-height: 50px;
+  text-align: center;
+}
+
+.menu-item {
+  background-color: transparent;
+  border: 1px solid #000;
+  border-top: 0px;
+  line-height: 50px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.profile-icon {
+  background-color: #bf443b;
+  padding: 2.5px;
+  text-align: center;
+  border: 2px solid #000;
+  border-right: 0px;
+}
+
+.menu-header {
+  background-color: #bf443b;
+  line-height: 60px;
+  text-align: left;
+  font-weight: bolder;
+  font-size: 13pt;
+  padding-left: 20px;
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+}
+
+.menu-button {
+  line-height: 50px;
+  background-color: #f05a4f;
+  text-align: center;
+  padding: 2.5px;
+  padding-top: 10px;
+}
+
+.close-menu {
+  padding: 2.5px;
+  background-color: #bf443b;
+  line-height: 60px;
+  text-align: center;
+  border: 2px solid #000;
+  border-left: 0px;
+}
+
+.menu-item-icon {
+  line-height: 50px;
+  text-align: center;
+  padding-top: 7px;
+  border: 1px solid #000;
+  border-top: 0px;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #fff;
+    font-weight: normal;
+    font-family: "Roboto";
+    letter-spacing: 2px;
+    font-size: 9pt;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #909;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #909;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:    #909;
+}
